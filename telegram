@@ -1,6 +1,4 @@
 
 config telegram 'settings'
-	option group_id '-1002257010628'
-	option message_thread_id '20'
-	option bot_token '7539902094:AAFvxXbo2v8NCLEctaCYMSJqyL_62GtEWvo'
+
 
