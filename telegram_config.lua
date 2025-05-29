@@ -4,7 +4,7 @@ m = Map("telegram", translate("Telegram Settings"), translate("Configure Telegra
 
 s = m:section(NamedSection, "settings", "telegram", translate("Telegram Configuration"))
 
-o = s:option(Value, "bot_token", translate("Bot Token"))
+o = s:option(Value, "bot_token", translate("Telegram Bot Token"))
 o.datatype = "string"
 o.password = true
 o.placeholder = "Enter your Telegram Bot Token"
